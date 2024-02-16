@@ -186,16 +186,19 @@ img {
     grid-template-rows: repeat(2, 1fr);
     grid-column-gap: 50px;
     grid-row-gap: 21px;
-    background: linear-gradient(to bottom, white, rgb(240, 212, 221));
+    /* background: linear-gradient(to bottom, white, rgb(240, 212, 221)); */
+    background-color: pink;
     }
 
     .products {
         padding: 14px;
         margin: 30px;
         text-align: center;
+        background: linear-gradient(pink);
     }
 .products h2 {
 padding-bottom: 25px;
+background-color: pink;
 }
 
 .product-card img{
