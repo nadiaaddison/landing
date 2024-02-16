@@ -70,7 +70,7 @@ a:hover{
     background:white;
     padding: 10px 20px 10px 20px;
     text-decoration: none;
-    border-width: none;
+    border: none;
 }
 
 .btn:hover{
@@ -119,8 +119,10 @@ a:hover{
     display: flex;
     align-items: center;
     width: 100%;
-    margin: auto;
+    margin: 20px auto;
+    padding: 10px;
     background-image: linear-gradient(to right, #d1446e, #da7099);
+    
 }
 
 .new-item-text {
@@ -145,13 +147,14 @@ img {
 
 .img {
     width: 100%;
+    
 }
 
 .service-items {
         display: grid;
         grid-template-columns: repeat(3, 1fr);
         grid-template-rows: 1fr;
-        grid-column-gap: 32px;
+        grid-column-gap: 40px;
         grid-row-gap: 0px;
         }
 
@@ -188,7 +191,7 @@ img {
 
     .products {
         padding: 14px;
-        margin: auto;
+        margin: 30px;
         text-align: center;
     }
 .products h2 {
@@ -215,7 +218,7 @@ padding-bottom: 25px;
     padding: 10px 20px 10px 20px;
     text-decoration: none; 
     cursor: pointer;
-    border-width: none;
+    border: none;
 }
 
 .product-card button:hover {
@@ -235,16 +238,47 @@ padding-bottom: 25px;
 .teams img{
         border: 2px solid #c74570; 
         border-radius: 5px; 
+        margin: 30px;
       }
 
       .product-card img{
             border: 2px solid white; 
-            border-radius: 5px; 
+            border-radius: 20px; 
           }
 .team h2{
     text-align: center;
     padding: 16px;
 }
 
+  footer {
+    background-color: #e28ca6;
+    color: #fff;
+    padding: 40px 0;
+    margin-top: 50px;
+}
 
-      
+.footer-content {
+    max-width: 1200px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.footer-content p {
+    margin: 0;
+}
+
+.footer-content ul {
+    list-style: none;
+    padding: 0;
+}
+
+.footer-content ul li {
+    display: inline;
+    margin: 0 10px;
+}
+
+.footer-content ul li a {
+    color: #fff;
+    text-decoration: none;
+} 
+
